@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaee11"
+    android:orientation="vertical">
+
+    <com.dup.library.FlipCardViewGroup
+        android:id="@+id/group"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:padding="20dp"
+        app:first_item_index="0">
+
+        <Button
+            android:id="@+id/btn_first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_bg1"
+            android:text="退出登录"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_second"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg2"
+                android:text="退出"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_third"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg3"
+                android:text="取消"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_bg3"
+            android:gravity="center"
+            android:text="退出登录中。。。"
+            android:textColor="#fff" />
+    </com.dup.library.FlipCardViewGroup>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置" />
+
+
+    <com.dup.library.FlipCardViewGroup
+        android:id="@+id/group1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:padding="20dp"
+        app:first_item_index="0"
+        app:play_auto="true"
+        app:play_end_item_index="0"
+        app:play_repeat_count="-1"
+        app:play_start_item_index="0">
+
+        <Button
+            android:id="@+id/btn_first1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_bg1"
+            android:text="退出登录"
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_second1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg2"
+                android:text="退出"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/btn_third1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg3"
+                android:text="取消"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_bg3"
+            android:gravity="center"
+            android:text="退出登录中。。。"
+            android:textColor="#fff" />
+    </com.dup.library.FlipCardViewGroup>
+
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止动画" />
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再次开启动画" />
+
+</LinearLayout>
