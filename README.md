@@ -3,6 +3,6 @@
 动画实现基于[https://github.com/zhangke3016/FlipCards](https://github.com/zhangke3016/FlipCards)  
 <br>
 效果：
-![](https://github.com/aalallalalal/CoolUI/tree/master/arts/1.gif)  
+![](arts/1.gif)  
 
 <br>
